@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="EAS.SH??Google Calendar ?쇱젙??寃?좏빐 EAS ?깅줉???뺣뒗 Windows 諛?macOS ?곗뒪?ы넲 ?깆엯?덈떎.">
+  <meta name="theme-color" content="#071b48">
+  <title>EAS.SH ??Calendar to EAS, safely reviewed</title>
+  <link rel="icon" href="assets/eas-sh.png">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="site.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">蹂몃Ц?쇰줈 ?대룞 / Skip to content</a>
+  <header class="site-header">
+    <a class="brand" href="./" aria-label="EAS.SH ??>
+      <img src="assets/eas-sh.png" alt="" width="42" height="42">
+      <span>EAS.SH</span>
+    </a>
+    <nav aria-label="二쇱슂 硫붾돱">
+      <a href="#how" data-ko="?묐룞 諛⑹떇" data-en="How it works">?묐룞 諛⑹떇</a>
+      <a href="#security" data-ko="?곗씠??蹂댄샇" data-en="Data protection">?곗씠??蹂댄샇</a>
+      <a href="privacy/" data-ko="媛쒖씤?뺣낫泥섎━諛⑹묠" data-en="Privacy">媛쒖씤?뺣낫泥섎━諛⑹묠</a>
+    </nav>
+    <div class="language-switch" role="group" aria-label="Language">
+      <button type="button" data-set-language="ko" aria-pressed="true">KO</button>
+      <button type="button" data-set-language="en" aria-pressed="false">EN</button>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">GOOGLE CALENDAR 쨌 EAS WORKFLOW</p>
+        <div data-language="ko">
+          <h1>罹섎┛???쇱젙? 媛?몄삤怨?<br><em>?깅줉 寃곗젙? 吏곸젒.</em></h1>
+          <p class="hero-lead">EAS.SH??Google Calendar ?쇱젙???쎌뼱 ?깅줉 ?꾨낫瑜?留뚮뱾怨? ?ъ슜?먭? 寃?좏븳 ??ぉ留??뚯궗 EAS???깅줉?섎뒗 Windows쨌macOS ?곗뒪?ы넲 ?깆엯?덈떎.</p>
+          <div class="hero-actions">
+            <a class="button primary" href="#how">?묐룞 諛⑹떇 蹂닿린</a>
+            <a class="button secondary" href="privacy/">?곗씠??泥섎━ ?뺤씤</a>
+          </div>
+          <p class="availability"><span></span> ?щ궡 諛고룷??쨌 Windows 諛?macOS 吏??/p>
+        </div>
+        <div data-language="en" hidden>
+          <h1>Bring in your calendar.<br><em>Keep the final say.</em></h1>
+          <p class="hero-lead">EAS.SH is a Windows and macOS desktop app that turns Google Calendar events into reviewable candidates and submits only user-approved items to the company EAS.</p>
+          <div class="hero-actions">
+            <a class="button primary" href="#how">See how it works</a>
+            <a class="button secondary" href="privacy/">Review data practices</a>
+          </div>
+          <p class="availability"><span></span> Internally distributed 쨌 Windows and macOS</p>
+        </div>
+      </div>
+      <div class="product-visual" aria-label="EAS.SH workflow preview">
+        <div class="window-chrome"><i></i><i></i><i></i><span>EAS.SH</span></div>
+        <div class="app-preview">
+          <div class="preview-side">
+            <img src="assets/eas-sh.png" alt="" width="50" height="50">
+            <span class="active"></span><span></span><span></span>
+          </div>
+          <div class="preview-main">
+            <p>CALENDAR SYNC</p>
+            <h2 data-ko="?쇱젙 ?깅줉 以鍮? data-en="Ready to review">?쇱젙 ?깅줉 以鍮?/h2>
+            <div class="connection-row"><span><b>G</b> Google Calendar</span><strong data-ko="?곌껐?? data-en="Connected">?곌껐??/strong></div>
+            <div class="date-grid"><span>MON<small>23</small></span><span class="selected">TUE<small>24</small></span><span>WED<small>25</small></span><span>THU<small>26</small></span><span>FRI<small>27</small></span></div>
+            <div class="event-row"><i></i><span><small>09:00??8:00</small><b>[?닿렐] VMware ?뚯뒪??/b></span><strong data-ko="寃???꾨즺" data-en="Reviewed">寃???꾨즺</strong></div>
+            <div class="preview-footer"><span data-ko="?깅줉 ??理쒖쥌 ?뺤씤" data-en="Final check before submission">?깅줉 ??理쒖쥌 ?뺤씤</span><button type="button" tabindex="-1" data-ko="EAS ?깅줉" data-en="Submit to EAS">EAS ?깅줉</button></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="principle-strip" aria-label="?듭떖 ?먯튃">
+      <div><strong data-ko="?쎄린 ?꾩슜" data-en="Read only">?쎄린 ?꾩슜</strong><span data-ko="Google Calendar 沅뚰븳" data-en="Google Calendar access">Google Calendar 沅뚰븳</span></div>
+      <div><strong data-ko="濡쒖뺄 ?뷀샇?? data-en="Locally encrypted">濡쒖뺄 ?뷀샇??/strong><span data-ko="OAuth ?좏겙 ??? data-en="OAuth token storage">OAuth ?좏겙 ???/span></div>
+      <div><strong data-ko="?ъ슜???뺤젙" data-en="User approved">?ъ슜???뺤젙</strong><span data-ko="寃????EAS ?깅줉" data-en="Submission after review">寃????EAS ?깅줉</span></div>
+    </section>
+
+    <section class="section workflow" id="how">
+      <div class="section-heading">
+        <p class="eyebrow">CONTROLLED WORKFLOW</p>
+        <div data-language="ko"><h2>?먮룞?뷀븯?? 嫄대꼫?곗? ?딅뒗 怨쇱젙</h2><p>?쇱젙??媛?몄삤???쒓컙遺???깅줉 寃곌낵瑜??뺤씤???뚭퉴吏 ?ъ슜?먭? ?먮쫫???듭젣?⑸땲??</p></div>
+        <div data-language="en" hidden><h2>Automation without skipped decisions</h2><p>You stay in control from calendar import through final EAS confirmation.</p></div>
+      </div>
+      <div class="steps">
+        <article><span>01</span><div data-language="ko"><h3>怨꾩젙 ?곌껐</h3><p>媛쒖씤 Google 怨꾩젙怨?蹂몄씤??EAS ?몄뀡??媛곴컖 ?곌껐?⑸땲??</p></div><div data-language="en" hidden><h3>Connect accounts</h3><p>Connect your own Google account and your authenticated EAS session.</p></div></article>
+        <article><span>02</span><div data-language="ko"><h3>?쇱젙 媛?몄삤湲?/h3><p>?좏깮??湲곌컙怨?罹섎┛?붿뿉???꾩슂???쇱젙???쎌뼱?듬땲??</p></div><div data-language="en" hidden><h3>Import events</h3><p>Read relevant events from the calendar and date range you select.</p></div></article>
+        <article><span>03</span><div data-language="ko"><h3>寃??諛??섏젙</h3><p>以묐났쨌?쒖쇅 ??ぉ???뺤씤?섍퀬 ?쒓컙怨?遺꾨쪟瑜?吏곸젒 議곗젙?⑸땲??</p></div><div data-language="en" hidden><h3>Review and edit</h3><p>Check duplicates and exclusions, then adjust time and classification.</p></div></article>
+        <article><span>04</span><div data-language="ko"><h3>EAS ?깅줉</h3><p>理쒖쥌 ?뺤씤??留덉튇 ??ぉ留?EAS???깅줉?섍퀬 ?쒕쾭 寃곌낵瑜??ㅼ떆 ?뺤씤?⑸땲??</p></div><div data-language="en" hidden><h3>Submit to EAS</h3><p>Submit only confirmed items and verify the result from the EAS server.</p></div></article>
+      </div>
+    </section>
+
+    <section class="section security" id="security">
+      <div class="security-panel">
+        <div class="security-copy">
+          <p class="eyebrow">PRIVACY BY DESIGN</p>
+          <div data-language="ko">
+            <h2>?꾩슂???뺣낫留?<br>?꾩슂???쒓컙??/h2>
+            <p>Google Calendar???쎄린 ?꾩슜 踰붿쐞濡??곌껐?⑸땲?? ?쇱젙 ?곗씠?곕뒗 ?깆뿉??寃??紐⑹쟻?쇰줈 泥섎━?섎ŉ, ?ъ슜?먭? ?깅줉???뺤젙?섍린 ?꾩뿉??EAS濡??꾩넚?섏? ?딆뒿?덈떎.</p>
+            <a href="privacy/">媛쒖씤?뺣낫泥섎━諛⑹묠 ?꾨Ц</a>
+          </div>
+          <div data-language="en" hidden>
+            <h2>Only what is needed,<br>only when it is needed</h2>
+            <p>Google Calendar is connected with read-only access. Event data is processed for review in the app and is not sent to EAS until the user confirms submission.</p>
+            <a href="privacy/">Read the full privacy policy</a>
+          </div>
+        </div>
+        <div class="data-map">
+          <div class="data-node google"><b>G</b><span>Google Calendar</span><small data-ko="?쎄린 ?꾩슜" data-en="Read only">?쎄린 ?꾩슜</small></div>
+          <div class="data-path"><span></span><em data-ko="?ъ슜??PC?먯꽌 寃?? data-en="Reviewed on your device">?ъ슜??PC?먯꽌 寃??/em></div>
+          <div class="data-node app"><img src="assets/eas-sh.png" alt="" width="52" height="52"><span>EAS.SH</span><small data-ko="濡쒖뺄 泥섎━" data-en="Local processing">濡쒖뺄 泥섎━</small></div>
+          <div class="data-path approved"><span></span><em data-ko="?뺤젙????ぉ留? data-en="Approved items only">?뺤젙????ぉ留?/em></div>
+          <div class="data-node eas"><b>E</b><span>Company EAS</span><small data-ko="?깅줉 ?붿껌" data-en="Submission">?깅줉 ?붿껌</small></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section platform">
+      <div data-language="ko"><p class="eyebrow">DESKTOP FIRST</p><h2>?낅Т ?섍꼍??留욎텣 ?곗뒪?ы넲 ??/h2><p>Windows? macOS?먯꽌 ?숈씪??寃???먮쫫???쒓났?⑸땲?? ?ㅼ튂 ?뚯씪? ?щ궡 吏??寃쎈줈瑜??듯빐 諛고룷?⑸땲??</p></div>
+      <div data-language="en" hidden><p class="eyebrow">DESKTOP FIRST</p><h2>Built for the way work gets done</h2><p>The same review workflow is available on Windows and macOS. Installers are distributed through the designated internal channel.</p></div>
+      <div class="platform-badges"><span><b>??/b> Windows</span><span><b>??/b> macOS</span></div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="brand"><img src="assets/eas-sh.png" alt="" width="36" height="36"><span>EAS.SH</span></div>
+    <p data-ko="Google Calendar ?쇱젙??EAS ?깅줉 ?먮쫫?쇰줈 ?덉쟾?섍쾶 ?곌껐?⑸땲??" data-en="A careful bridge from Google Calendar to your EAS workflow.">Google Calendar ?쇱젙??EAS ?깅줉 ?먮쫫?쇰줈 ?덉쟾?섍쾶 ?곌껐?⑸땲??</p>
+    <div><a href="privacy/" data-ko="媛쒖씤?뺣낫泥섎━諛⑹묠" data-en="Privacy Policy">媛쒖씤?뺣낫泥섎━諛⑹묠</a><a href="https://github.com/yurimheo/EAS-SH-Docs/issues" data-ko="吏??臾몄쓽" data-en="Support">吏??臾몄쓽</a></div>
+    <small>짤 2026 EAS.SH. All rights reserved.</small>
+  </footer>
+</body>
+</html>
+
