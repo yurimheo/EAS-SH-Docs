@@ -2,8 +2,8 @@
 
 Public, bilingual product and privacy pages for EAS.SH. This repository contains no application source code, credentials, tokens, or user data.
 
-- Home: `https://yurimheo.github.io/EAS-SH-Docs/`
-- Privacy: `https://yurimheo.github.io/EAS-SH-Docs/privacy/`
+- Home: `https://eas.lumaroom.life/`
+- Privacy: `https://eas.lumaroom.life/privacy/`
 
-The site is static and is intended for GitHub Pages hosting from the `main` branch root.
+The site is static and is published through GitHub Pages from the `main` branch root. The custom domain is declared in `CNAME`.
 
